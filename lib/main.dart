@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_music_player_lyrics/views/music_list.dart';
 
 import 'views/music_player.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MusicPlayer(),
+      home:  MyHomePage(),
     );
   }
 }
+
